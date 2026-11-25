@@ -1,0 +1,23 @@
+resource_id,resource_name,resource_type,zone_id,criticality,status,backup_available,data_status
+PWR-GRID-A,Grid feeder A,electricity,PZ-A,critical,operational,no,synthetic_demo
+PWR-GRID-B,Grid feeder B,electricity,PZ-B,critical,operational,no,synthetic_demo
+PWR-GRID-C,Grid feeder C,electricity,PZ-C,critical,operational,no,synthetic_demo
+GEN-01,Diesel generator 1,backup_power,PZ-A,critical,operational,yes,synthetic_demo
+GEN-02,Diesel generator 2,backup_power,PZ-B,high,operational,yes,synthetic_demo
+UPS-CORE,Core UPS,backup_power,PZ-A,high,operational,no,synthetic_demo
+ISP-PRIMARY,Primary ISP fibre,internet,NZ-A,critical,operational,no,synthetic_demo
+ISP-BACKUP,Backup ISP link,internet,NZ-B,high,operational,yes,synthetic_demo
+CORE-SWITCH,Core network switch,network,NZ-A,critical,operational,no,synthetic_demo
+FIREWALL-01,Campus firewall,network,NZ-A,high,operational,no,synthetic_demo
+SERVER-ERP,ERP application server,server,DC-01,critical,operational,no,synthetic_demo
+SERVER-LMS,Learning management server,server,DC-01,high,operational,no,synthetic_demo
+SERVER-DB,Database server,server,DC-01,critical,operational,no,synthetic_demo
+WATER-MUNI,Municipal water inlet,water,WZ-01,critical,operational,no,synthetic_demo
+WATER-PUMP-01,Water pump 1,water,WZ-01,high,operational,no,synthetic_demo
+WATER-TANK-01,Overhead water tank,water,WZ-01,high,operational,yes,synthetic_demo
+BUS-01,North route bus,transport,TRANSPORT,medium,operational,no,synthetic_demo
+BUS-02,East route bus,transport,TRANSPORT,medium,operational,no,synthetic_demo
+BUS-03,South route bus,transport,TRANSPORT,medium,operational,no,synthetic_demo
+BUS-04,West route bus,transport,TRANSPORT,medium,operational,no,synthetic_demo
+CCTV-CORE,Central CCTV recorder,security,SEC-01,medium,operational,no,synthetic_demo
+ACCESS-CONTROL,Campus access control,security,SEC-01,high,operational,no,synthetic_demo

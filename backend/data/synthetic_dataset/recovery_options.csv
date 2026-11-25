@@ -1,0 +1,7 @@
+option_id,scenario_family,action,required_resource_id,capacity_limit,estimated_setup_minutes,direct_cost_units,disruption_level
+ROP-001,power,Activate generator GEN-01,GEN-01,priority_loads_only,10,30,low
+ROP-002,power,Relocate affected sessions to powered rooms in PZ-B/PZ-C,CR-10,room_capacity_and_schedule,35,10,medium
+ROP-003,internet,Switch traffic to ISP-BACKUP,ISP-BACKUP,60_percent_normal_traffic,8,20,low
+ROP-004,water,Use overhead tank buffer,WATER-TANK-01,finite_storage_hours,5,5,low
+ROP-005,transport,Redistribute riders to routes with spare seats,BUS-03,remaining_seat_capacity,25,15,medium
+ROP-006,lab,Move practical session to compatible lab,LAB-ISE-01,equipment_and_room_availability,30,10,medium

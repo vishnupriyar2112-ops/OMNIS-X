@@ -1,0 +1,6 @@
+scenario_id,name,root_node_id,duration_minutes,severity_input,assumption
+SCN-POWER-A,Power feeder A failure,PWR-GRID-A,120,major,Generator GEN-01 has limited capacity; only priority loads are supported.
+SCN-ISP,Primary internet outage,ISP-PRIMARY,90,major,Backup ISP can carry 60 percent of normal traffic.
+SCN-WATER,Municipal water interruption,WATER-MUNI,180,major,Overhead tank provides finite buffer; pump requires electricity.
+SCN-LAB,AIML lab equipment outage,SVC-LAB-AIML,180,moderate,Alternative computing labs may have limited free capacity and GPU availability.
+SCN-BUS,East route bus breakdown,BUS-02,60,moderate,Other routes have spare seats only if capacity constraints permit.

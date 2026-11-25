@@ -1,0 +1,16 @@
+node_id,node_name,node_type,criticality,status,data_status
+SVC-ERP,Academic ERP,application,high,operational,synthetic_demo
+SVC-LMS,Learning Management System,application,high,operational,synthetic_demo
+SVC-EXAM,Examination Management,operation,critical,operational,synthetic_demo
+SVC-LAB-CSE,CSE Practical Labs,operation,high,operational,synthetic_demo
+SVC-LAB-ISE,ISE Practical Labs,operation,high,operational,synthetic_demo
+SVC-LAB-AIML,AIML Practical Labs,operation,high,operational,synthetic_demo
+SVC-LAB-ECE,ECE Practical Labs,operation,high,operational,synthetic_demo
+SVC-LAB-EEE,EEE Practical Labs,operation,high,operational,synthetic_demo
+SVC-LAB-MECH,Mechanical Practical Labs,operation,high,operational,synthetic_demo
+SVC-HOSTEL,Hostel Services,operation,critical,operational,synthetic_demo
+SVC-LIBRARY,Library Services,operation,medium,operational,synthetic_demo
+SVC-PLACEMENT,Placement Activities,operation,high,operational,synthetic_demo
+SVC-TRANSPORT,Student Transport,operation,high,operational,synthetic_demo
+SVC-ATTENDANCE,Attendance Services,operation,medium,operational,synthetic_demo
+SVC-ONLINE-EXAM,Online Assessment,operation,critical,operational,synthetic_demo

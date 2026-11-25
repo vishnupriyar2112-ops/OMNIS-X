@@ -1,0 +1,4 @@
+event_id,event_name,event_type,organizing_department_id,date,start_time,duration_hours,venue_id,priority
+EV-001,Placement Assessment Day,placement,CSE,2027-01-15,09:00,6,PLC-HALL-01,high
+EV-002,Technical Symposium,academic_event,ECE,2027-02-10,10:00,5,LIB-01,medium
+EV-003,Semester Practical Week,examination,AIML,2027-01-20,09:00,7,LAB-AIML-01,critical

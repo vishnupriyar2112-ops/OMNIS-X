@@ -1,0 +1,22 @@
+{
+  "dataset_name": "OMNIS-X realistic synthetic engineering campus",
+  "version": "1.0",
+  "provenance": "synthetic demonstration data; not actual institutional records",
+  "counts": {
+    "departments": 6,
+    "students": 1200,
+    "faculty": 60,
+    "rooms": 28,
+    "infrastructure_resources": 22,
+    "service_nodes": 15,
+    "dependency_edges": 33,
+    "timetable_sessions": 48,
+    "examinations": 12,
+    "hostels": 3,
+    "transport_routes": 4,
+    "events": 3,
+    "incidents": 24,
+    "failure_scenarios": 5,
+    "recovery_options": 6
+  }
+}

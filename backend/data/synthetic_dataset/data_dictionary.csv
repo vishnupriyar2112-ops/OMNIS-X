@@ -1,0 +1,16 @@
+file,description
+departments.csv,One row per department; department_id is primary key.
+students.csv,Synthetic pseudonymous students; cohort_id links to timetable and exam cohorts.
+faculty.csv,Synthetic faculty; expertise_course_codes supports qualified substitutions.
+rooms.csv,Physical spaces; room_id is primary key; equipment is semicolon-delimited key:value inventory.
+resources.csv,Physical/digital infrastructure assets that can fail.
+services.csv,Campus services and operational functions represented as dependency graph nodes.
+dependencies.csv,Directed provider-to-dependent edges; source_node_id failure can propagate to target_node_id.
+timetable_sessions.csv,"Scheduled teaching sessions; references cohort_id, department_id, room_id and faculty_id."
+examinations.csv,"Exam events; references cohort_id, room_id and invigilator_id."
+hostels.csv,Hostel occupancy and utility dependencies.
+transport_routes.csv,Bus route capacity and allocation.
+events.csv,"Campus events and venue reservations; organizing_department_id is synthetic demo metadata."
+incident_history.csv,Synthetic historical incidents for testing analytics; not actual incident records.
+failure_scenarios.csv,Scenario inputs only; impacts must be computed by the simulation engine.
+recovery_options.csv,Candidate recovery actions and their resource/constraint requirements.

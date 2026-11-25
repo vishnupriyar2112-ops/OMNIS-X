@@ -1,0 +1,25 @@
+incident_id,incident_type,failed_node_id,start_timestamp,duration_minutes,severity,resolution_summary,is_synthetic
+INC-SYN-001,power_outage,PWR-GRID-A,2026-11-02T09:00:00,60,HIGH,Generator fallback available,True
+INC-SYN-002,internet_outage,ISP-PRIMARY,2026-10-03T10:00:00,120,HIGH,Switch to backup ISP,True
+INC-SYN-003,lab_equipment_failure,LAB-CSE-01,2026-11-04T11:00:00,165,MEDIUM,Move session to another suitable lab,True
+INC-SYN-004,water_supply_failure,WATER-MUNI,2026-10-05T12:00:00,180,HIGH,Use overhead tank buffer,True
+INC-SYN-005,bus_breakdown,BUS-02,2026-11-06T13:00:00,75,MEDIUM,Dispatch spare bus / redistribute riders,True
+INC-SYN-006,erp_server_failure,SERVER-ERP,2026-10-07T14:00:00,105,HIGH,Restore from standby backup,True
+INC-SYN-007,power_outage,PWR-GRID-A,2026-11-08T15:00:00,90,HIGH,Generator fallback available,True
+INC-SYN-008,internet_outage,ISP-PRIMARY,2026-10-09T08:00:00,90,HIGH,Switch to backup ISP,True
+INC-SYN-009,lab_equipment_failure,LAB-CSE-01,2026-11-10T09:00:00,135,MEDIUM,Move session to another suitable lab,True
+INC-SYN-010,water_supply_failure,WATER-MUNI,2026-10-11T10:00:00,210,HIGH,Use overhead tank buffer,True
+INC-SYN-011,bus_breakdown,BUS-02,2026-11-12T11:00:00,105,MEDIUM,Dispatch spare bus / redistribute riders,True
+INC-SYN-012,erp_server_failure,SERVER-ERP,2026-10-13T12:00:00,75,HIGH,Restore from standby backup,True
+INC-SYN-013,power_outage,PWR-GRID-A,2026-11-14T13:00:00,60,HIGH,Generator fallback available,True
+INC-SYN-014,internet_outage,ISP-PRIMARY,2026-10-15T14:00:00,120,HIGH,Switch to backup ISP,True
+INC-SYN-015,lab_equipment_failure,LAB-CSE-01,2026-11-16T15:00:00,165,MEDIUM,Move session to another suitable lab,True
+INC-SYN-016,water_supply_failure,WATER-MUNI,2026-10-17T08:00:00,180,HIGH,Use overhead tank buffer,True
+INC-SYN-017,bus_breakdown,BUS-02,2026-11-18T09:00:00,75,MEDIUM,Dispatch spare bus / redistribute riders,True
+INC-SYN-018,erp_server_failure,SERVER-ERP,2026-10-19T10:00:00,105,HIGH,Restore from standby backup,True
+INC-SYN-019,power_outage,PWR-GRID-A,2026-11-20T11:00:00,90,HIGH,Generator fallback available,True
+INC-SYN-020,internet_outage,ISP-PRIMARY,2026-10-21T12:00:00,90,HIGH,Switch to backup ISP,True
+INC-SYN-021,lab_equipment_failure,LAB-CSE-01,2026-11-22T13:00:00,135,MEDIUM,Move session to another suitable lab,True
+INC-SYN-022,water_supply_failure,WATER-MUNI,2026-10-23T14:00:00,210,HIGH,Use overhead tank buffer,True
+INC-SYN-023,bus_breakdown,BUS-02,2026-11-24T15:00:00,105,MEDIUM,Dispatch spare bus / redistribute riders,True
+INC-SYN-024,erp_server_failure,SERVER-ERP,2026-10-25T08:00:00,75,HIGH,Restore from standby backup,True

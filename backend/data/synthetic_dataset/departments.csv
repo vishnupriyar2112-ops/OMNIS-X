@@ -1,0 +1,7 @@
+department_id,department_name,student_count,faculty_count,academic_years,data_status
+CSE,Computer Science and Engineering,200,10,4,synthetic_demo
+ISE,Information Science and Engineering,200,10,4,synthetic_demo
+AIML,Artificial Intelligence and Machine Learning,200,10,4,synthetic_demo
+ECE,Electronics and Communication Engineering,200,10,4,synthetic_demo
+EEE,Electrical and Electronics Engineering,200,10,4,synthetic_demo
+MECH,Mechanical Engineering,200,10,4,synthetic_demo

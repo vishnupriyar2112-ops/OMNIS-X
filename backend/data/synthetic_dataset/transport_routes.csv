@@ -1,0 +1,5 @@
+route_id,bus_id,route_name,daily_capacity,assigned_students,arrival_buffer_minutes
+ROUTE-N,BUS-01,North Route,55,48,25
+ROUTE-E,BUS-02,East Route,55,52,15
+ROUTE-S,BUS-03,South Route,60,54,20
+ROUTE-W,BUS-04,West Route,50,46,30

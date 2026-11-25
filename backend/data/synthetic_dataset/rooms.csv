@@ -1,0 +1,29 @@
+room_id,building,room_type,capacity,department_id,lab_type,equipment,power_zone,network_zone,status
+CR-01,Academic Block A,classroom,60,CSE,,projector;whiteboard,PZ-A,NZ-A,operational
+CR-02,Academic Block A,classroom,60,ISE,,projector;whiteboard,PZ-A,NZ-A,operational
+CR-03,Academic Block A,classroom,80,AIML,,projector;whiteboard,PZ-A,NZ-A,operational
+CR-04,Academic Block A,classroom,60,ECE,,projector;whiteboard,PZ-A,NZ-A,operational
+CR-05,Academic Block A,classroom,60,EEE,,projector;whiteboard,PZ-A,NZ-A,operational
+CR-06,Academic Block A,classroom,80,MECH,,projector;whiteboard,PZ-A,NZ-A,operational
+CR-07,Academic Block A,classroom,60,CSE,,projector;whiteboard,PZ-A,NZ-A,operational
+CR-08,Academic Block A,classroom,60,ISE,,projector;whiteboard,PZ-A,NZ-A,operational
+CR-09,Academic Block A,classroom,80,AIML,,projector;whiteboard,PZ-A,NZ-A,operational
+CR-10,Academic Block A,classroom,60,ECE,,projector;whiteboard,PZ-B,NZ-B,operational
+CR-11,Academic Block B,classroom,60,EEE,,projector;whiteboard,PZ-B,NZ-B,operational
+CR-12,Academic Block B,classroom,80,MECH,,projector;whiteboard,PZ-B,NZ-B,operational
+CR-13,Academic Block B,classroom,60,CSE,,projector;whiteboard,PZ-B,NZ-B,operational
+CR-14,Academic Block B,classroom,60,ISE,,projector;whiteboard,PZ-B,NZ-B,operational
+CR-15,Academic Block B,classroom,80,AIML,,projector;whiteboard,PZ-B,NZ-B,operational
+CR-16,Academic Block B,classroom,60,ECE,,projector;whiteboard,PZ-B,NZ-B,operational
+CR-17,Academic Block B,classroom,60,EEE,,projector;whiteboard,PZ-B,NZ-B,operational
+CR-18,Academic Block B,classroom,80,MECH,,projector;whiteboard,PZ-B,NZ-B,operational
+LAB-CSE-01,Laboratory Block,laboratory,40,CSE,computing,pc:40;projector:1;ups:1,PZ-A,NZ-A,operational
+LAB-ISE-01,Laboratory Block,laboratory,40,ISE,computing,pc:40;projector:1;ups:1,PZ-A,NZ-A,operational
+LAB-AIML-01,Laboratory Block,laboratory,40,AIML,computing,pc:40;gpu_workstation:8;projector:1,PZ-B,NZ-B,operational
+LAB-ECE-01,Laboratory Block,laboratory,36,ECE,electronics,oscilloscope:18;function_generator:18;trainer_kit:36,PZ-B,NZ-B,operational
+LAB-EEE-01,Laboratory Block,laboratory,32,EEE,electrical,motor_rig:8;multimeter:32;trainer_kit:16,PZ-C,NZ-C,operational
+LAB-MECH-01,Laboratory Block,laboratory,30,MECH,mechanical,lathe:4;cnc:2;measurement_kit:30,PZ-C,NZ-C,operational
+EXAM-HALL-01,Examination Block,exam_hall,200,,,desks:200;cctv:1,PZ-A,NZ-A,operational
+EXAM-HALL-02,Examination Block,exam_hall,180,,,desks:180;cctv:1,PZ-B,NZ-B,operational
+LIB-01,Library Block,library,150,,,pc:20;wifi:1,PZ-B,NZ-B,operational
+PLC-HALL-01,Admin Block,placement_hall,120,,,projector:2;wifi:1,PZ-C,NZ-C,operational

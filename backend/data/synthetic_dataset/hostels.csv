@@ -1,0 +1,4 @@
+hostel_id,capacity,occupied,water_zone,power_zone,backup_hours
+HOSTEL-A,300,270,WZ-01,PZ-B,2
+HOSTEL-B,250,220,WZ-01,PZ-B,2
+HOSTEL-C,200,180,WZ-01,PZ-C,3
